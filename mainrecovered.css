@@ -1,0 +1,215 @@
+/*****Base Styles*****/
+font-face {
+font-family: 'Roboto', sans-serif;
+font-family: "Lato", sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Cabin Condensed', sans-serif;
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+/***** GRID *****/
+ .full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+ .half-width {
+   width: 600px; float:left;
+ }
+ .third-width {
+   width: 350px;
+   float:left;
+}
+/***** HEADER *****/
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+		line-height: 52px;
+    color: white;
+		padding-left: 25px;
+    font-variant:small-caps;
+    }
+    nav {
+    float: right;
+    padding: 60px 0;
+  }
+      nav ul li{
+      display: inline-block;
+      }
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14pt;
+    color: #ffcccc;
+    padding-left: 18px;
+		padding-right: 25px;
+    padding-top: 65px;
+            }
+#header {clear:both;
+}
+header {
+  height:768px;
+  background:  url("../img/buildingup.png"); background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  }
+#header .center {
+		margin: auto;
+    padding: 10px;
+		text-align: center;
+	}
+#header .background1 {
+				background: rgb(51, 51, 51);
+				background: rgba(51, 51, 51, .8);
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-position: top;
+				height:160px;
+				}
+header h2 {
+	  clear: right;
+	  font-family: 'Work Sans', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    color: white;
+    justify-content:center;+++
+    text-align: center;
+    line-height: 58px;
+    padding-top:225px;
+
+    word-spacing: 0px;
+    width:850px;
+		margin: 0 auto;
+    font-variant:small-caps;
+    }
+
+/***** ABOUT *****/
+
+
+#about .full-width {
+    		padding: 40px 0;
+}
+#about .third-width {
+			padding: 5px;
+			border: 10px solid green;
+			margin:10px;
+		}
+#header .background3 {
+						background: rgb(51, 51, 51);
+						background: rgba(51, 51, 51, .8);
+						background-repeat: no-repeat;
+						background-attachment: fixed;
+						background-position: top;
+						height:160px;
+						}
+#about h2 {
+    color: black;
+    font-family:'Work sans', sans-serif;
+    font-size: 30px;
+		font-variant:small-caps;
+		text-align: center;
+}
+
+#about h3 {
+    font-family: 'Raleway', sans-serif;
+		font-weight: bold;
+    font-size: 16pt;
+    color: black
+		line-height:30px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    width: 300px;
+	}
+#about p {
+    font-family: 'cabin', sans-serif;
+    font-size: 13pt;
+		font-weight: 200;
+    color: black;
+    line-height: 30px;
+		margin: 5px;
+
+    width: 300px;
+    padding:0 35px;
+
+	}
+/***** WORK PRODUCTS *****/
+#work .full-width {
+    padding: 100px 0;
+}
+#work {clear:both;
+}
+#work h2 {
+		color: black;
+	  font-family:'Work sans', sans-serif;
+		font-size: 30px;
+		font-variant:small-caps;
+		padding:100px 0;
+		text-align: center;
+		max-width: 800px;
+}
+#work h3 {
+    font-family: 'Raleway', sans-serif;
+		font-weight: bold;
+    font-size: 16pt;
+    color: black
+    line-height:30px;
+    text-align: center;
+	}
+#work p {
+			font-family: 'cabin', sans-serif;
+			font-size: 14pt;
+			font-weight: 300;
+			color: black;
+			line-height: 28px;
+			padding: 0 20px 0 20px;
+		}
+
+		/***** CONTACT *****/
+#contact .full-width {
+    padding: 60px 0;
+}
+#contact h2 {
+		color: black;
+		font-family:'Work sans', sans-serif;
+		font-size: 30px;
+		font-variant:small-caps;
+		padding-top:350px;
+		text-align: left;
+				}
+#contact img {
+		img-align: center;
+		display: block;
+		padding-left: 150px;
+		padding-bottom: 30px;
+}
+#contact-img {
+  	border: 12px solid black;
+}
+#contact h3 {
+		font-family: 'Raleway', sans-serif;
+		font-weight: bold;
+		font-size: 18pt;
+ 		color: black
+ 		line-height:30px;
+				}
+#envelope {
+				    align: left;
+					}
+#contact ul {
+    list-style: none;
+    border: 0px;
+		align: left;
+  }
+#contact ul {
+			list-style: none;
+			border: 0px;
+}
+#contact ul li   {
+			display: inline-block;
+}
+#contact ul img {
+		 padding-right: 10px;
+}
