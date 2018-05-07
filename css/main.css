@@ -23,16 +23,19 @@ font-family: 'Cabin Condensed', sans-serif;
 }
 
 /***** HEADER *****/
-
-
+#header .logo-img {
+					padding-top:17px;
+					margin-left: 30px; float: left;
+				}
 header h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     color: white;
-		padding-left: 35px;
+		padding-left: 210px;
     font-variant:small-caps;
 		word-spacing: 5px;
 		line-height: 55px;
+
 }
 header nav {
 float: right;
@@ -64,6 +67,12 @@ header {
     padding: 10px;
 		text-align: center;
 	}
+#header .logo-img {
+					margin-top:20px;
+					margin-left: 50px; float: left;
+					background: solid white;
+
+		}
 #header .background1 {
 				background: rgb(51, 51, 51);
 				background: rgba(51, 51, 51, .8);
